@@ -17,7 +17,7 @@ body, section, article, footer, aside, header, p, a, ul, span, div {
 body {
 	font-size: 14px;
 	color: #eee;
-	background:#260930;
+	background:#F0F0F0;
 }
 em {
 	font-style: normal;
@@ -167,8 +167,8 @@ pre {
 	min-height:74px;
 }
 .blogtitle {
-	font-size: 30px;
-	color: #eee;
+	font-size: 50px;
+	color: #000000;
 	font-weight:bold;
 	padding:0 0 0 30px;
 	margin:0;
@@ -319,10 +319,10 @@ pre {
 .date2 {
 	color:#eee;
 	padding:5px 5px 5px 10px;
-	border-bottom:2px solid #260930;
+	border-bottom:2px solid #F0F0F0;
 }
 .text {
-	border-left:2px solid #260930;
+	border-left:2px solid #F0F0F0;
 	width:566px;
 	float:right;
 	overflow: hidden;
@@ -363,15 +363,15 @@ pre {
 }
 .post-share {
 	padding: 10px 10px;
-	border-bottom:2px solid #260930;
-	border-top:2px solid #260930;
+	border-bottom:2px solid #F0F0F0;
+	border-top:2px solid #F0F0F0;
 }
 .post-footer div {
 	text-align:center;
 	width:102px;
 	height:34px;
 	line-height:34px;
-	border-bottom:2px solid #260930;
+	border-bottom:2px solid #F0F0F0;
 }
 .post-share p {
 	margin: 0;

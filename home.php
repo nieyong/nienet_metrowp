@@ -28,7 +28,15 @@
             <?php the_author(); ?>
             </span> </div>
           <div class="post-content fix">
-            <?php the_content(); ?>
+	<?php
+	if(has_excerpt()) 
+	{the_excerpt();?>
+	<a href="<?php the_permalink() ?>"  title="<?php the_title(); ?>">&gt;&gt;阅读全文&lt;&lt;</a>
+	<?php }
+	else {
+	echo mb_strimwidth(apply_filters('the_content', $post->post_content), 0, 500,"……"); ?>
+	<a href="<?php the_permalink() ?>"  title="<?php the_title(); ?>">&gt;&gt;阅读全文&lt;&lt;</a>
+	<?php }//end else ?>
             <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'MetroWP' ), 'after' => '</div>' ) ); ?>
             <div class="tags fix">
               <?php the_tags(__('Tagged with: ', 'MetroWP'),' &bull; ',''); ?>

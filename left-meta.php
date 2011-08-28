@@ -10,10 +10,10 @@
     <div> <span>
       <?php comments_number(0, 1, '%'); ?>
       </span> <a href="<?php the_permalink(); ?>#comments" title="<?php _e('View Comments', 'MetroWP');?>">
-      <?php _e('Comments','MetroWP');?>
+      <?php _e('评论','MetroWP');?>
       </a> </div>
     <div> <span> <a href="<?php the_permalink(); ?>#respond">
-      <?php _e('Respond', 'MetroWP');?>
+      <?php _e('我要发言', 'MetroWP');?>
       </a> </span> </div>
   </div>
 </div>

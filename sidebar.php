@@ -8,7 +8,7 @@
         if ( ! dynamic_sidebar( 'primary-widget-area' ) ) : ?>
   <div id="archives" class="widget-container">
     <h3 class="widget-title">
-      <?php _e( 'Archives', 'MetroWP' ); ?>
+      <?php _e( '文章整理', 'MetroWP' ); ?>
     </h3>
     <ul>
       <?php wp_get_archives( 'type=monthly' ); ?>
@@ -16,7 +16,7 @@
   </div>
   <div id="meta" class="widget-container">
     <h3 class="widget-title">
-      <?php _e( 'Meta', 'MetroWP' ); ?>
+      <?php _e( '站点工具', 'MetroWP' ); ?>
     </h3>
     <ul>
       <?php wp_register(); ?>
